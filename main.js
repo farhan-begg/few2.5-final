@@ -7,9 +7,10 @@ fetch("data.json").then(data => data.json())
     console.log(gdp)
     console.log(social)
     console.log(life)
+    
     // Challange 2
-    const countriesP = document.querySelector(".countries")
-    countriesP.innerHTML = `Number of Countries: ${data.length}`
+    const countries = document.querySelector(".countries")
+    countries.innerHTML = `Number of Countries: ${data.length}`
 
     // Challange 3
     const topDiv = document.querySelector(".top")
